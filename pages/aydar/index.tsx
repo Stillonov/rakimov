@@ -8,7 +8,6 @@ const Aydar: NextPage = () => {
                 <title>rakimov.ru</title>
                 <meta name="description" content="Обо мне" />
             </Head>
-
             Обо мне
         </div>
     );

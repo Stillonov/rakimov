@@ -8,7 +8,6 @@ const Create: NextPage = () => {
                 <title>rakimov.ru</title>
                 <meta name="description" content="Create" />
             </Head>
-
             Create
         </div>
     );

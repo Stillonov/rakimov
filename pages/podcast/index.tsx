@@ -8,7 +8,6 @@ const Projects: NextPage = () => {
                 <title>rakimov.ru</title>
                 <meta name="description" content="Design" />
             </Head>
-
             Design
         </div>
     );

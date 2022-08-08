@@ -8,7 +8,6 @@ const Films: NextPage = () => {
                 <title>rakimov.ru</title>
                 <meta name="description" content="Films" />
             </Head>
-
             Films
         </div>
     );

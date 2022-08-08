@@ -8,7 +8,6 @@ const Podcast: NextPage = () => {
                 <title>rakimov.ru</title>
                 <meta name="description" content="Podcast" />
             </Head>
-
             Podcast
         </div>
     );

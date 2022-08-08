@@ -10,7 +10,6 @@ const Home: NextPage = () => {
                 <title>rakimov.ru</title>
                 <meta name="description" content="Home page" />
             </Head>
-
             Home page
         </div>
     );

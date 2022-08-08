@@ -8,7 +8,6 @@ const Collect: NextPage = () => {
                 <title>rakimov.ru</title>
                 <meta name="description" content="Collect" />
             </Head>
-
             Collect
         </div>
     );

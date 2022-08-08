@@ -8,7 +8,6 @@ const Travel: NextPage = () => {
                 <title>rakimov.ru</title>
                 <meta name="description" content="Travel" />
             </Head>
-
             Design
         </div>
     );
