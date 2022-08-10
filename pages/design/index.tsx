@@ -1,7 +1,9 @@
-import type { NextPage } from 'next';
 import Head from 'next/head';
 
-const Design: NextPage = () => {
+import type { NextPageWithLayout } from 'pages/_app';
+import { Layout } from 'components/Layout';
+
+const Design: NextPageWithLayout = () => {
     return (
         <div>
             <Head>
@@ -12,5 +14,7 @@ const Design: NextPage = () => {
         </div>
     );
 };
+
+Design.getLayout = (page) => <Layout>{page}</Layout>;
 
 export default Design;
