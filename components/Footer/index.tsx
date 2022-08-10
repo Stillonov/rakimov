@@ -4,10 +4,8 @@ interface Props {
     data?: string;
 };
 
-export const Footer: React.FC<Props> = () => {
-    return (
-        <footer className={styles.root}>
-            Page Footer
-        </footer>
-    );
-};
+export const Footer: React.FC<Props> = () => (
+    <footer className={styles.root}>
+        Page Footer
+    </footer>
+);

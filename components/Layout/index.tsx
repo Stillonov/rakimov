@@ -7,12 +7,10 @@ interface Props {
     children: React.ReactNode;
 }
 
-export const Layout: React.FC<Props> = ({ children }) => {
-    return (
-        <div className={styles.root}>
-            <Header />
-            <main className={styles.main}>{children}</main>
-            <Footer />
-        </div>
-    );
-};
+export const Layout: React.FC<Props> = ({ children }) => (
+    <div className={styles.root}>
+        <Header />
+        <main className={styles.main}>{children}</main>
+        <Footer />
+    </div>
+);

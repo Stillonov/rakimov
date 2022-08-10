@@ -4,10 +4,8 @@ interface Props {
     data?: string;
 };
 
-export const Header: React.FC<Props> = () => {
-    return (
-        <header className={styles.root}>
-            Page Header
-        </header>
-    );
-};
+export const Header: React.FC<Props> = () => (
+    <header className={styles.root}>
+        Page Header
+    </header>
+);
