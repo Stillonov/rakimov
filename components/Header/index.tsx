@@ -1,3 +1,5 @@
+import { Container } from 'components/Container';
+
 import styles from './styles.module.css';
 
 interface Props {
@@ -6,6 +8,8 @@ interface Props {
 
 export const Header: React.FC<Props> = () => (
     <header className={styles.root}>
-        Page Header
+        <Container>
+            Page Header
+        </Container>
     </header>
 );

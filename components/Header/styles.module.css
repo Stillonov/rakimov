@@ -1,5 +1,5 @@
 .root {
     flex: 0 0 41px;
     margin: 0 0 52px;
-    background: #131315;
+    background: var(--color-n900);
 }
