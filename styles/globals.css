@@ -1,12 +1,12 @@
 :root {
-    --color-n100: #CFD6DE;
-    --color-n200: #B8BEC5;
-    --color-n300: #A0A5AC;
-    --color-n400: #898D93;
-    --color-n500: #71757A;
-    --color-n600: #5A5C60;
+    --color-n100: #cfd6de;
+    --color-n200: #b8bec5;
+    --color-n300: #a0a5ac;
+    --color-n400: #898d93;
+    --color-n500: #71757a;
+    --color-n600: #5a5c60;
     --color-n700: #424447;
-    --color-n800: #2B2B2E;
+    --color-n800: #2b2b2e;
     --color-n900: #131315;
 }
 
@@ -16,9 +16,8 @@ body {
     margin: 0;
     padding: 0;
     background: var(--color-n900);
-    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
-        Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue,
-        sans-serif;
+    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans,
+        Helvetica Neue, sans-serif;
     color: var(--color-n100);
 }
 

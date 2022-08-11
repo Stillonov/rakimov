@@ -6,7 +6,5 @@ interface Props {
 }
 
 export const Container: React.FC<Props> = ({ children, className = '' }) => (
-    <div className={`${styles.root} ${className}`}>
-       {children}
-    </div>
+    <div className={`${styles.root} ${className}`}>{children}</div>
 );
