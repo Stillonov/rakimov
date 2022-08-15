@@ -1,5 +1,5 @@
 .root {
     flex: 0 0 41px;
     margin: 0 0 52px;
-    background: var(--colorPrimary900);
+    background: var(--backgroundColor);
 }
