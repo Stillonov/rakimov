@@ -1,13 +1,13 @@
 :root {
-    --color-n100: #cfd6de;
-    --color-n200: #b8bec5;
-    --color-n300: #a0a5ac;
-    --color-n400: #898d93;
-    --color-n500: #71757a;
-    --color-n600: #5a5c60;
-    --color-n700: #424447;
-    --color-n800: #2b2b2e;
-    --color-n900: #131315;
+    --colorPrimary100: #cfd6de;
+    --colorPrimary200: #b8bec5;
+    --colorPrimary300: #a0a5ac;
+    --colorPrimary400: #898d93;
+    --colorPrimary500: #71757a;
+    --colorPrimary600: #5a5c60;
+    --colorPrimary700: #424447;
+    --colorPrimary800: #2b2b2e;
+    --colorPrimary900: #131315;
 }
 
 html,
@@ -15,10 +15,10 @@ body {
     height: 100%;
     margin: 0;
     padding: 0;
-    background: var(--color-n900);
+    background: var(--colorPrimary900);
     font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans,
         Helvetica Neue, sans-serif;
-    color: var(--color-n100);
+    color: var(--colorPrimary100);
 }
 
 #__next {
