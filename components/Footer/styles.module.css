@@ -2,3 +2,14 @@
     flex: 0 0 70px;
     margin: 104px 0 0;
 }
+
+.gridContainer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+.gridColumn {
+    float: 0 1 auto;
+}
