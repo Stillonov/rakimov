@@ -13,6 +13,9 @@
     /* Theme */
     --backgroundColor: var(--colorNeutral900);
     --textColor: var(--colorNeutral100);
+
+    /* Images */
+    --imageNoise: url(../public/images/noise.png);
 }
 
 html,
@@ -20,21 +23,25 @@ body {
     height: 100%;
     margin: 0;
     padding: 0;
-    background: var(--backgroundColor);
+    background: var(--backgroundColor) 0 0 repeat;
     font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans,
         Helvetica Neue, sans-serif;
     color: var(--textColor);
+}
+
+body {
+    background-image: var(--imageNoise);
 }
 
 #__next {
     height: 100%;
 }
 
+* {
+    box-sizing: border-box;
+}
+
 a {
     color: inherit;
     text-decoration: none;
-}
-
-* {
-    box-sizing: border-box;
 }

@@ -1,3 +1,4 @@
+import '../styles/vendor/normalize.css';
 import '../styles/globals.css';
 
 import type { NextPage } from 'next';
