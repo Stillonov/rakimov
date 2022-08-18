@@ -1,5 +1,15 @@
 .root {
-    max-width: 1200px;
+    max-width: calc(1200px + 80px);
     margin: 0 auto;
-    padding: 0;
+    padding: 0 40px;
+}
+
+.root > .root {
+    margin-right: -40px;
+    margin-left: -40px;
+}
+
+.fluid {
+    width: 100%;
+    max-width: 100%;
 }

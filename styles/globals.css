@@ -10,12 +10,16 @@
     --colorNeutral800: #2b2b2e;
     --colorNeutral900: #131315;
 
-    /* Theme */
-    --backgroundColor: var(--colorNeutral900);
-    --textColor: var(--colorNeutral100);
+    --spacing1: 2px;
 
     /* Images */
     --imageNoise: url(../public/images/noise.png);
+
+    /* Theme */
+    --backgroundColor: var(--colorNeutral900);
+    --backgroundNoise: repeat var(--imageNoise) 50% 50% / 180px 180px;
+
+    --textColor: var(--colorNeutral100);
 }
 
 html,
@@ -23,14 +27,14 @@ body {
     height: 100%;
     margin: 0;
     padding: 0;
-    background: var(--backgroundColor) 0 0 repeat;
+    background-color: var(--backgroundColor);
     font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans,
         Helvetica Neue, sans-serif;
     color: var(--textColor);
 }
 
 body {
-    background-image: var(--imageNoise);
+    background: var(--backgroundNoise);
 }
 
 #__next {

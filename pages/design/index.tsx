@@ -2,6 +2,7 @@ import Head from 'next/head';
 
 import type { NextPageWithLayout } from 'pages/_app';
 import { Layout } from 'components/Layout';
+import { Container } from 'components/Container';
 
 const Design: NextPageWithLayout = () => {
     return (
@@ -10,7 +11,10 @@ const Design: NextPageWithLayout = () => {
                 <title>rakimov.ru</title>
                 <meta name="description" content="Design" />
             </Head>
-            Design
+
+            <Container>
+                Design
+            </Container>
         </div>
     );
 };

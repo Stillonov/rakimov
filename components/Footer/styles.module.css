@@ -1,15 +1,34 @@
 .root {
-    flex: 0 0 70px;
+    flex: 0 0 auto;
     margin: 104px 0 0;
+    padding: 0 0 40px;
+    text-align: center;
+    text-transform: uppercase;
+    white-space: nowrap;
+}
+
+@media (min-width: 1000px) {
+    .root {
+        text-align: left;
+    }
 }
 
 .gridContainer {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+    gap: 8px;
     flex-wrap: nowrap;
     justify-content: space-between;
+}
+
+@media (min-width: 641px) {
+    .gridContainer {
+        flex-direction: row;
+    }
 }
 
 .gridColumn {
     float: 0 1 auto;
 }
+
+
