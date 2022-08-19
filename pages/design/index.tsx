@@ -12,9 +12,7 @@ const Design: NextPageWithLayout = () => {
                 <meta name="description" content="Design" />
             </Head>
 
-            <Container>
-                Design
-            </Container>
+            <Container>Design</Container>
         </div>
     );
 };

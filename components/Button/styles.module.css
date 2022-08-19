@@ -1,0 +1,25 @@
+.root {
+    display: inline-block;
+    min-height: 16px;
+    margin: 0;
+    padding: 2px 4px;
+    border: none;
+    border-radius: 1px;
+    background: var(--colorNeutral100);
+    font-size: var(--fontSizeControl);
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: opacity 0.2s ease;
+}
+
+.root:hover {
+    opacity: 0.8;
+}
+
+.root:active {
+    opacity: 0.6;
+}
+
+.fluid {
+    display: block;
+}

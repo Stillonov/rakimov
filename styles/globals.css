@@ -14,8 +14,8 @@
     --spacing1: 2px;
 
     /* Typography */
-    --fontFamilyAlsWagon: "ALS Wagon", "Arial Narrow", Arial, sans-serif;
-    --fontFamilyAlsGorizont: "ALS Gorizont", "Arial Narrow", Arial, sans-serif;
+    --fontFamilyAlsWagon: 'ALS Wagon', 'Arial Narrow', Arial, sans-serif;
+    --fontFamilyAlsGorizont: 'ALS Gorizont', 'Arial Narrow', Arial, sans-serif;
 
     --fontSizeSm10: 10px;
     --fontSizeSm20: 12px;

@@ -1,15 +1,15 @@
 @font-face {
-    font-family: "ALS Wagon";
-    src: url("../public/fonts/als-wagon-regular-narrow.woff2") format("woff2"),
-        url("../public/fonts/als-wagon-regular-narrow.woff") format("woff");
+    font-family: 'ALS Wagon';
+    src: url('../public/fonts/als-wagon-regular-narrow.woff2') format('woff2'),
+        url('../public/fonts/als-wagon-regular-narrow.woff') format('woff');
     font-style: normal;
     font-weight: 400;
 }
 
 @font-face {
-    font-family: "ALS Gorizont";
-    src: url("../public/fonts/als-gorizont-bold.woff2") format("woff2"),
-        url("../public/fonts/als-gorizont-bold.woff") format("woff");
+    font-family: 'ALS Gorizont';
+    src: url('../public/fonts/als-gorizont-bold.woff2') format('woff2'),
+        url('../public/fonts/als-gorizont-bold.woff') format('woff');
     font-style: normal;
     font-weight: 800;
 }
