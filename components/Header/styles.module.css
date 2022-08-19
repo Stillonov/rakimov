@@ -4,6 +4,7 @@
     margin: 0 0 52px;
     padding: 12px 0;
     background: var(--backgroundColor);
+    color: var(--colorNeutral500);
     text-transform: uppercase;
     white-space: nowrap;
 }
