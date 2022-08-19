@@ -8,6 +8,12 @@ interface Props {
 
 export const Header: React.FC<Props> = () => (
     <header className={styles.root}>
-        <Container>Page Header</Container>
+        <Container>
+            <div className={styles.gridContainer}>
+                <div className={styles.gridColumn}>Айдар Ракимов</div>
+                <div className={styles.gridColumn}>Продуктовый дизайнер. UX/UI</div>
+                <div className={styles.gridColumn}>Скачать резюме</div>
+            </div>
+        </Container>
     </header>
 );

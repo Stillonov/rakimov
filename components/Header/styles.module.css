@@ -1,5 +1,27 @@
 .root {
-    flex: 0 0 41px;
+    flex: 0 0 auto;
+    min-height: 41px;
     margin: 0 0 52px;
+    padding: 12px 0;
     background: var(--backgroundColor);
+    text-transform: uppercase;
+    white-space: nowrap;
+}
+
+.gridContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+@media (min-width: 641px) {
+    .gridContainer {
+        flex-direction: row;
+    }
+}
+
+.gridColumn {
+    flex: 0 1 auto;
 }

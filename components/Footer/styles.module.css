@@ -1,7 +1,8 @@
 .root {
     flex: 0 0 auto;
+    min-height: 70px;
     margin: 104px 0 0;
-    padding: 0 0 40px;
+    padding: 0 0 39px;
     text-align: center;
     text-transform: uppercase;
     white-space: nowrap;
@@ -28,7 +29,7 @@
 }
 
 .gridColumn {
-    float: 0 1 auto;
+    flex: 0 1 auto;
 }
 
 

@@ -10,7 +10,30 @@
     --colorNeutral800: #2b2b2e;
     --colorNeutral900: #131315;
 
+    /* Spacings */
     --spacing1: 2px;
+
+    /* Typography */
+    --fontFamilyAlsWagon: "ALS Wagon", "Arial Narrow", Arial, sans-serif;
+    --fontFamilyAlsGorizont: "ALS Gorizont", "Arial Narrow", Arial, sans-serif;
+
+    --fontSizeSm10: 10px;
+    --fontSizeSm20: 12px;
+    --fontSizeSm30: 14px;
+    --fontSizeSm40: 16px;
+    --fontSizeSm50: 18px;
+
+    --fontSizeMd10: 22px;
+    --fontSizeMd20: 26px;
+    --fontSizeMd30: 30px;
+    --fontSizeMd40: 34px;
+    --fontSizeMd50: 38px;
+
+    --fontSizeLg10: 48px;
+    --fontSizeLg20: 52px;
+    --fontSizeLg30: 56px;
+    --fontSizeLg40: 60px;
+    --fontSizeLg50: 64px;
 
     /* Images */
     --imageNoise: url(../public/images/noise.png);
@@ -18,6 +41,12 @@
     /* Theme */
     --backgroundColor: var(--colorNeutral900);
     --backgroundNoise: repeat var(--imageNoise) 50% 50% / 180px 180px;
+
+    --fontSizeHeading1: var(--fontSizeLg30);
+    --fontSizeHeading2: var(--fontSizeMd30);
+    --fontSizeBody: var(--fontSizeSm30);
+    --fontSizeCaption: var(--fontSizeSm10);
+    --fontSizeControl: var(--fontSizeSm10);
 
     --textColor: var(--colorNeutral100);
 }
@@ -28,8 +57,10 @@ body {
     margin: 0;
     padding: 0;
     background-color: var(--backgroundColor);
-    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans,
-        Helvetica Neue, sans-serif;
+    font-family: var(--fontFamilyAlsWagon);
+    font-size: var(--fontSizeBody);
+    line-height: 1.2;
+    font-weight: 400;
     color: var(--textColor);
 }
 
