@@ -1,0 +1,29 @@
+.root {
+    color: var(--colorNeutral100);
+}
+
+.list {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    margin: 0;
+    padding-left: 0;
+    list-style: none;
+}
+
+@media (min-width: 768px) {
+    .list {
+        flex-direction: row;
+    }
+}
+
+.listItem {
+    flex: 0 0 auto;
+}
+
+@media (min-width: 768px) {
+    .listItem + .listItem::before {
+        margin: 0 12px;
+        content: "/";
+    }
+}

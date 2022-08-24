@@ -5,7 +5,6 @@
     padding: 12px 0;
     background: var(--backgroundColor);
     color: var(--colorNeutral500);
-    text-transform: uppercase;
     white-space: nowrap;
 }
 
@@ -17,7 +16,7 @@
     justify-content: space-between;
 }
 
-@media (min-width: 641px) {
+@media (min-width: 768px) {
     .gridContainer {
         flex-direction: row;
     }

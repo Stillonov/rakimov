@@ -3,6 +3,7 @@ import Head from 'next/head';
 import type { NextPageWithLayout } from 'pages/_app';
 import { Layout } from 'components/Layout';
 import { Container } from 'components/Container';
+import { Breadcrumbs } from 'components/Breadcrumbs';
 
 const Design: NextPageWithLayout = () => {
     return (
@@ -12,7 +13,9 @@ const Design: NextPageWithLayout = () => {
                 <meta name="description" content="Design" />
             </Head>
 
-            <Container>Design</Container>
+            <Container>
+                <Breadcrumbs />
+            </Container>
         </div>
     );
 };

@@ -4,11 +4,10 @@
     margin: 104px 0 0;
     padding: 0 0 39px;
     text-align: center;
-    text-transform: uppercase;
     white-space: nowrap;
 }
 
-@media (min-width: 1000px) {
+@media (min-width: 768px) {
     .root {
         text-align: left;
     }
@@ -22,7 +21,7 @@
     justify-content: space-between;
 }
 
-@media (min-width: 641px) {
+@media (min-width: 768px) {
     .gridContainer {
         flex-direction: row;
     }
