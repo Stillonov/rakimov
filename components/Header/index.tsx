@@ -3,11 +3,7 @@ import { Button } from 'components/Button';
 
 import styles from './styles.module.css';
 
-interface Props {
-    data?: string;
-}
-
-export const Header: React.FC<Props> = () => (
+export const Header: React.FC = () => (
     <header className={styles.root}>
         <Container>
             <div className={styles.gridContainer}>

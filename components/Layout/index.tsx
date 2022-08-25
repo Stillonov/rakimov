@@ -3,11 +3,11 @@ import { Footer } from 'components/Footer';
 
 import styles from './styles.module.css';
 
-interface Props {
+interface LayoutProps {
     children: React.ReactNode;
 }
 
-export const Layout: React.FC<Props> = ({ children }) => (
+export const Layout: React.FC<LayoutProps> = ({ children }) => (
     <div className={styles.root}>
         <Header />
         <main className={styles.main}>{children}</main>

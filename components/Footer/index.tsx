@@ -3,11 +3,7 @@ import { Divider } from 'components/Divider';
 
 import styles from './styles.module.css';
 
-interface Props {
-    data?: string;
-}
-
-export const Footer: React.FC<Props> = () => (
+export const Footer: React.FC = () => (
     <footer className={styles.root}>
         <Container>
             <Divider />
