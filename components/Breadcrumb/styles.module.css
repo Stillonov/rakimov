@@ -16,14 +16,3 @@
         flex-direction: row;
     }
 }
-
-.listItem {
-    flex: 0 0 auto;
-}
-
-@media (min-width: 768px) {
-    .listItem + .listItem::before {
-        margin: 0 12px;
-        content: "/";
-    }
-}
