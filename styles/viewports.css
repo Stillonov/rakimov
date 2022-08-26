@@ -1,0 +1,44 @@
+:root {
+    --viewport: XS;
+    --viewportXS: (min-width: 480px);
+    --viewportSM: (min-width: 768px);
+    --viewportMD: (min-width: 992px);
+    --viewportLG: (min-width: 1200px);
+    --viewportXL: (min-width: 1600px);
+}
+
+@custom-media --viewportXS (min-width: 480px);
+@custom-media --viewportSM (min-width: 768px);
+@custom-media --viewportMD (min-width: 992px);
+@custom-media --viewportLG (min-width: 1200px);
+@custom-media --viewportXL (min-width: 1600px);
+
+@media (--viewportXS) {
+	:root {
+        --viewport: XS;
+    }
+}
+
+@media (--viewportSM) {
+	:root {
+        --viewport: SM;
+    }
+}
+
+@media (--viewportMD) {
+	:root {
+        --viewport: MD;
+    }
+}
+
+@media (--viewportLG) {
+	:root {
+        --viewport: LG;
+    }
+}
+
+@media (--viewportXL) {
+	:root {
+        --viewport: XL;
+    }
+}

@@ -1,0 +1,56 @@
+:root {
+    /* Colors */
+    --colorNeutral100: #cfd6de;
+    --colorNeutral200: #b8bec5;
+    --colorNeutral300: #a0a5ac;
+    --colorNeutral400: #898d93;
+    --colorNeutral500: #71757a;
+    --colorNeutral600: #5a5c60;
+    --colorNeutral700: #424447;
+    --colorNeutral800: #2b2b2e;
+    --colorNeutral900: #131315;
+
+    /* Spacings */
+    --spacing1: 2px;
+
+    /* Typography */
+    --fontFamilyAlsWagon: 'ALS Wagon', 'Arial Narrow', Arial, sans-serif;
+    --fontFamilyAlsGorizont: 'ALS Gorizont', 'Arial Narrow', Arial, sans-serif;
+
+    --fontSizeSm10: 10px;
+    --fontSizeSm20: 12px;
+    --fontSizeSm30: 14px;
+    --fontSizeSm40: 16px;
+    --fontSizeSm50: 18px;
+
+    --fontSizeMd10: 22px;
+    --fontSizeMd20: 26px;
+    --fontSizeMd30: 30px;
+    --fontSizeMd40: 34px;
+    --fontSizeMd50: 38px;
+
+    --fontSizeLg10: 48px;
+    --fontSizeLg20: 52px;
+    --fontSizeLg30: 56px;
+    --fontSizeLg40: 60px;
+    --fontSizeLg50: 64px;
+
+    /* Images */
+    --imageNoise: url(../public/images/noise.png);
+
+    /* Theme */
+    --backgroundColor: var(--colorNeutral900);
+    --backgroundNoise: repeat var(--imageNoise) 50% 50% / 180px 180px;
+
+    --fontColorHeading: var(--colorNeutral100);
+    --fontColorBody: var(--colorNeutral300);
+    --fontColorLink: var(--colorNeutral100);
+
+    --fontSizeHeading1: var(--fontSizeLg30);
+    --fontSizeHeading2: var(--fontSizeMd30);
+    --fontSizeBody: var(--fontSizeSm30);
+    --fontSizeCaption: var(--fontSizeSm10);
+    --fontSizeControl: var(--fontSizeSm10);
+
+    --lineHeight: 1.2;
+}
