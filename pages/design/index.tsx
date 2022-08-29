@@ -26,9 +26,11 @@ const Design: NextPageWithLayout = () => {
                                 <BreadcrumbItem link="/design/chudo">Чудо</BreadcrumbItem>
                             </Breadcrumb>
 
-                            <Title level='2'>Дизайню</Title>
+                            <Title>Дизайню</Title>
                         </>
                     }
+
+                    rightSlot={<div>111</div>}
                 />
             </Container>
         </>

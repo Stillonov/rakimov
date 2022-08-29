@@ -11,11 +11,9 @@ interface PageHeaderProps {
 export const PageHeader: React.FC<PageHeaderProps> = ({ leftSlot, rightSlot, compact = false, className = '' }) => {
     return (
         <div className={cn(styles.root, {[styles.compact]: compact}, className)}>
-            <div className={styles.gridContainer}>
-                {leftSlot && <div className={styles.gridColumn}>{leftSlot}</div>}
+            {leftSlot && <div className={styles.gridColumn}>{leftSlot}</div>}
 
-                {rightSlot && <div className={styles.gridColumn}>{rightSlot}</div>}
-            </div>
+            {rightSlot && <div className={styles.gridColumn}>{rightSlot}</div>}
         </div>
     );
 };

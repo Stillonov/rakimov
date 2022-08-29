@@ -5,3 +5,21 @@
 .compact {
     min-height: 196px;
 }
+
+.gridContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+@media (--viewportSM) {
+    .gridContainer {
+        flex-direction: row;
+    }
+}
+
+.gridColumn {
+    flex: 0 1 auto;
+}
