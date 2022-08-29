@@ -1,0 +1,15 @@
+.root {
+    color: var(--colorNeutral500);
+    text-align: right;
+}
+
+.list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.listItem {
+    display: block;
+    background: var(--colorNeutral900);
+}

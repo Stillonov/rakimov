@@ -1,4 +1,5 @@
 import cn from 'classNames';
+
 import styles from './styles.module.css';
 
 interface TitleProps {

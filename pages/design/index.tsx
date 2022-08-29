@@ -7,6 +7,8 @@ import { Breadcrumb } from 'components/Breadcrumb';
 import { BreadcrumbItem } from 'components/BreadcrumbItem';
 import { Title } from 'components/Title';
 import { PageHeader } from 'components/PageHeader';
+import { Subtitle } from 'components/Subtitle';
+import { Meta } from 'components/Meta';
 
 const Design: NextPageWithLayout = () => {
     return (
@@ -27,8 +29,10 @@ const Design: NextPageWithLayout = () => {
                             </Breadcrumb>
 
                             <Title>Дизайню</Title>
+                            <Subtitle>Здесь проекты, для которых я делал дизайн</Subtitle>
                         </>
                     }
+                    rightSlot={<Meta data={['2015 - 2022 гг', 'Проектов: 18', 'Работ: 46']} />}
                 />
             </Container>
         </>

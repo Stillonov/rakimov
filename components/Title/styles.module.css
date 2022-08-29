@@ -1,7 +1,6 @@
 .root {
-    margin: 0 0 10px;
+    margin: 0;
     padding: 0;
-    background: red;
     color: var(--fontColorHeading);
     font-family: var(--fontFamilyHeading);
 }

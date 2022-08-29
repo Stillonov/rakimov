@@ -17,6 +17,7 @@
     min-height: 196px;
 }
 
-.gridColumn {
+.leftSlot,
+.rightSlot {
     flex: 0 1 auto;
 }
