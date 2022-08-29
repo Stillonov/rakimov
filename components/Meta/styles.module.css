@@ -1,9 +1,12 @@
 .root {
-    color: var(--colorNeutral500);
-    text-align: right;
+    padding-right: 12px;
+    border-right: 2px solid var(--colorNeutral100);
 }
 
 .list {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
     margin: 0;
     padding: 0;
     list-style: none;
@@ -11,5 +14,9 @@
 
 .listItem {
     display: block;
+    padding: 6px 16px;
     background: var(--colorNeutral900);
+    color: var(--colorNeutral100);
+    text-align: right;
+    white-space: nowrap;
 }

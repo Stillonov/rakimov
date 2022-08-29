@@ -1,16 +1,10 @@
 .root {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     gap: 8px;
     flex-wrap: nowrap;
     justify-content: space-between;
     min-height: 386px;
-}
-
-@media (--viewportSM) {
-    .root {
-        flex-direction: row;
-    }
 }
 
 .compact {
