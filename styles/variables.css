@@ -42,15 +42,18 @@
     --backgroundColor: var(--colorNeutral900);
     --backgroundNoise: repeat var(--imageNoise) 50% 50% / 180px 180px;
 
-    --fontColorHeading: var(--colorNeutral100);
+    --fontFamilyBody: var(--fontFamilyAlsWagon);
+    --fontFamilyHeading: var(--fontFamilyAlsGorizont);
+
     --fontColorBody: var(--colorNeutral300);
     --fontColorLink: var(--colorNeutral100);
+    --fontColorHeading: var(--colorNeutral100);
 
-    --fontSizeHeading1: var(--fontSizeLg30);
-    --fontSizeHeading2: var(--fontSizeMd30);
     --fontSizeBody: var(--fontSizeSm30);
     --fontSizeCaption: var(--fontSizeSm10);
     --fontSizeControl: var(--fontSizeSm10);
+    --fontSizeHeading1: var(--fontSizeLg30);
+    --fontSizeHeading2: var(--fontSizeMd30);
 
     --lineHeight: 1.2;
 }

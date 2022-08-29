@@ -5,7 +5,7 @@ body {
     padding: 0;
     background-color: var(--backgroundColor);
     color: var(--fontColorBody);
-    font-family: var(--fontFamilyAlsWagon);
+    font-family: var(--fontFamilyBody);
     font-size: var(--fontSizeBody);
     line-height: var(--lineHeight);
     font-weight: 400;
