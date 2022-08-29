@@ -29,8 +29,6 @@ const Design: NextPageWithLayout = () => {
                             <Title>Дизайню</Title>
                         </>
                     }
-
-                    rightSlot={<div>111</div>}
                 />
             </Container>
         </>
