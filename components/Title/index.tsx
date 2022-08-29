@@ -10,5 +10,5 @@ interface TitleProps {
 export const Title: React.FC<TitleProps> = ({ children, className = '', level = '1' }) => {
     const CustomElement = `h${level}` as React.ComponentType | keyof JSX.IntrinsicElements;
 
-    return <CustomElement className={cn(styles.root, [styles[`level${level}`]], className)}>{children}</CustomElement>
+    return <CustomElement className={cn(styles.root, [styles[`level${level}`]], className)}>{children}</CustomElement>;
 };

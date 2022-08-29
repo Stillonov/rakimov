@@ -14,31 +14,31 @@
 @custom-media --viewportXL (min-width: 1600px);
 
 @media (--viewportXS) {
-	:root {
+    :root {
         --viewport: XS;
     }
 }
 
 @media (--viewportSM) {
-	:root {
+    :root {
         --viewport: SM;
     }
 }
 
 @media (--viewportMD) {
-	:root {
+    :root {
         --viewport: MD;
     }
 }
 
 @media (--viewportLG) {
-	:root {
+    :root {
         --viewport: LG;
     }
 }
 
 @media (--viewportXL) {
-	:root {
+    :root {
         --viewport: XL;
     }
 }
