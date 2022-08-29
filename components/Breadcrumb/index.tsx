@@ -10,7 +10,7 @@ interface BreadcrumbProps {
     className?: string;
 }
 
-export const Breadcrumb: React.FC<BreadcrumbProps> = ({ children, className = '' }) => {
+export const Breadcrumb: React.FC<BreadcrumbProps> = ({ children, className }) => {
     const childrenArray = React.Children.toArray(children);
 
     return (

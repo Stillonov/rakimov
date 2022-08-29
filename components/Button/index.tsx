@@ -7,6 +7,6 @@ interface ButtonProps {
     fluid?: boolean;
 }
 
-export const Button: React.FC<ButtonProps> = ({ children, className = '', fluid = false }) => (
+export const Button: React.FC<ButtonProps> = ({ children, className, fluid = false }) => (
     <button className={cn(styles.root, className, { [styles.fluid]: fluid })}>{children}</button>
 );

@@ -7,6 +7,6 @@ interface ContainerProps {
     fluid?: boolean;
 }
 
-export const Container: React.FC<ContainerProps> = ({ children, className = '', fluid = false }) => (
+export const Container: React.FC<ContainerProps> = ({ children, className, fluid = false }) => (
     <div className={cn(styles.root, className, { [styles.fluid]: fluid })}>{children}</div>
 );
