@@ -1,7 +1,6 @@
 .root {
     display: flex;
     flex-direction: row;
-    gap: 8px;
     flex-wrap: nowrap;
     justify-content: space-between;
     min-height: 386px;

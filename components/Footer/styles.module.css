@@ -16,7 +16,7 @@
 .gridContainer {
     display: flex;
     flex-direction: column;
-    gap: 8px;
+    /* gap: 8px; */
     flex-wrap: nowrap;
     justify-content: space-between;
 }
@@ -29,4 +29,19 @@
 
 .gridColumn {
     flex: 0 1 auto;
+    margin: 8px 0 0;
+}
+
+.gridColumn:first-child {
+    margin-top: 0;
+}
+
+@media (--viewportSM) {
+    .gridColumn {
+        margin: 0 0 0 8px;
+    }
+
+    .gridColumn:first-child {
+        margin-left: 0;
+    }
 }
