@@ -37,6 +37,8 @@ const Design: NextPageWithLayout = () => {
                     }
                     rightSlot={<Meta data={['2015 - 2022 гг', 'Проектов: 18', 'Работ: 46']} />}
                 />
+
+                <div style={{background: 'red'}}>111</div>
             </Container>
         </>
     );
