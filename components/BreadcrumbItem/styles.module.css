@@ -8,11 +8,10 @@
     color: var(--colorNeutral100);
 }
 
-@media (--viewportSM) {
-    .root + .root::before {
-        margin: 0 12px;
-        content: '/';
-    }
+.root + .root::before {
+    margin-right: 12px;
+    margin-left: 12px;
+    content: '/';
 }
 
 .isLast a {

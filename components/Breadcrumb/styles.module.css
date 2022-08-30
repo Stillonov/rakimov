@@ -1,14 +1,8 @@
 .list {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     flex-wrap: nowrap;
     margin: 0 0 40px;
     padding-left: 0;
     list-style: none;
-}
-
-@media (--viewportSM) {
-    .list {
-        flex-direction: row;
-    }
 }

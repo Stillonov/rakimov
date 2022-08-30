@@ -10,6 +10,13 @@ import { PageHeader } from 'components/PageHeader';
 import { Subtitle } from 'components/Subtitle';
 import { Meta } from 'components/Meta';
 import backgroundImage from 'public/images/background-design.png';
+import { ProjectsList } from 'components/ProjectsList';
+
+const DATA_PROJECTS = [
+    { id: 0, name: 'Item 1', description: 'The cool item' },
+    { id: 1, name: 'Item 2', description: 'The bad item' },
+    { id: 1, name: 'Item 3', description: 'The nice item', works: [{ name: 'Work 1', url: '/' }] },
+];
 
 const Design: NextPageWithLayout = () => {
     return (
@@ -37,7 +44,7 @@ const Design: NextPageWithLayout = () => {
                     rightSlot={<Meta data={['2015 - 2022 гг', 'Проектов: 18', 'Работ: 46']} />}
                 />
 
-                <div style={{background: 'red'}}>111</div>
+                <ProjectsList data={DATA_PROJECTS} />
             </Container>
         </>
     );

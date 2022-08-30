@@ -1,4 +1,4 @@
-import cn from 'classnames';
+import cn from 'classNames';
 import Link from 'next/link';
 
 import styles from './styles.module.css';
