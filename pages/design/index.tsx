@@ -9,6 +9,7 @@ import { Title } from 'components/Title';
 import { PageHeader } from 'components/PageHeader';
 import { Subtitle } from 'components/Subtitle';
 import { Meta } from 'components/Meta';
+import backgroundImage from 'public/images/background-design.png';
 
 const Design: NextPageWithLayout = () => {
     return (
@@ -39,6 +40,6 @@ const Design: NextPageWithLayout = () => {
     );
 };
 
-Design.getLayout = (page) => <Layout>{page}</Layout>;
+Design.getLayout = (page) => <Layout backgroundImage={backgroundImage.src}>{page}</Layout>;
 
 export default Design;

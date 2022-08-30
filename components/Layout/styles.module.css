@@ -6,4 +6,6 @@
 
 .main {
     flex: 1 0 auto;
+    padding: 52px 0 104px;
+    background: no-repeat 0 0 / 100%;
 }
