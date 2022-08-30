@@ -17,6 +17,8 @@ const Design: NextPageWithLayout = () => {
             <Head>
                 <title>rakimov.ru</title>
                 <meta name="description" content="Design" />
+                <meta name="theme-color" content="#131315" media="(prefers-color-scheme: light)" />
+                <meta name="theme-color" content="#131315" media="(prefers-color-scheme: dark)" />
             </Head>
 
             <Container>
