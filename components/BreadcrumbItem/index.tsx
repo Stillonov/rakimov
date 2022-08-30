@@ -1,3 +1,4 @@
+import cn from 'classnames';
 import Link from 'next/link';
 
 import styles from './styles.module.css';
@@ -9,7 +10,7 @@ export interface BreadcrumbItemProps {
 }
 
 export const BreadcrumbItem: React.FC<BreadcrumbItemProps> = ({ children, link = '/', isLast = false }) => (
-    <li className={styles.root} {...(isLast ? { 'aria-current': 'page' } : {})}>
+    <li className={cn(styles.root, { [styles.isLast]: isLast })} {...(isLast ? { 'aria-current': 'page' } : {})}>
         <Link href={link}>
             <a>{children}</a>
         </Link>

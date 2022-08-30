@@ -28,7 +28,6 @@ const Design: NextPageWithLayout = () => {
                             <Breadcrumb>
                                 <BreadcrumbItem link="/">Главная</BreadcrumbItem>
                                 <BreadcrumbItem link="/design">Дизайню</BreadcrumbItem>
-                                <BreadcrumbItem link="/design/chudo">Чудо</BreadcrumbItem>
                             </Breadcrumb>
 
                             <Title>Дизайню</Title>

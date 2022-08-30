@@ -1,6 +1,11 @@
 .root {
     flex: 0 0 auto;
     list-style: none;
+    color: var(--colorNeutral100);
+}
+
+.root a {
+    color: var(--colorNeutral100);
 }
 
 @media (--viewportSM) {
@@ -8,4 +13,10 @@
         margin: 0 12px;
         content: '/';
     }
+}
+
+.isLast a {
+    color: var(--colorNeutral500);
+    text-decoration: none;
+    pointer-events: none;
 }

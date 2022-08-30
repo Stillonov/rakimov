@@ -1,7 +1,3 @@
-.root {
-    color: var(--colorNeutral100);
-}
-
 .list {
     display: flex;
     flex-direction: column;

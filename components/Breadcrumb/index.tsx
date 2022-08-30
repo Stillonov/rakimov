@@ -1,5 +1,4 @@
 import React from 'react';
-import cn from 'classNames';
 
 import type { BreadcrumbItemProps } from 'components/BreadcrumbItem';
 
@@ -14,7 +13,7 @@ export const Breadcrumb: React.FC<BreadcrumbProps> = ({ children, className }) =
     const childrenArray = React.Children.toArray(children);
 
     return (
-        <nav className={cn(styles.root, className)} aria-label="Breadcrumb">
+        <nav className={className} aria-label="Breadcrumb">
             <ul className={styles.list}>
                 {React.Children.map(childrenArray, (child, index) => {
                     const isLast = index === childrenArray.length - 1;
