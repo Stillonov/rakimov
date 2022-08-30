@@ -1,13 +1,14 @@
 .root {
     display: flex;
     flex-direction: column;
+    position: relative;
+    z-index: 0; /* Use z-index and relative position for main if you have problems with it */
     height: 100%;
 }
 
 .main {
     flex: 1 0 auto;
     position: relative;
-    z-index: 0;
     padding: 52px 0 104px;
 }
 
@@ -18,5 +19,5 @@
     z-index: -1;
     width: 100%;
     padding-top: 56.25%;
-    background: repeat 0 0 / 400px 400px, no-repeat 0 0 / 100%;
+    background: repeat 0 0 / 400px 400px, repeat-x, no-repeat 0 0 / 100%;
 }

@@ -10,14 +10,13 @@ interface LayoutProps {
 }
 
 export const Layout: React.FC<LayoutProps> = ({ children, backgroundImageUrl }) => {
-    // const backgroundImage = `linear-gradient(180deg, rgba(19, 19, 21, 0.1) 50%, #131315 100%), url(${backgroundImageUrl})`;
-    const backgroundImage = `url(${noiseImage.src}), url(${backgroundImageUrl})`;
+    const backgroundImage = `url(${noiseImage.src}), linear-gradient(180deg, rgba(19, 19, 21, 0) 50%, #131315 100%), url(${backgroundImageUrl})`;
 
     return (
         <div className={styles.root}>
             <Header />
             <main className={styles.main}>
-                {backgroundImage && <div className={styles.backgroundImage} style={{ backgroundImage }} />}
+                {backgroundImageUrl && <div className={styles.backgroundImage} style={{ backgroundImage }} />}
                 {children}
             </main>
             <Footer />
