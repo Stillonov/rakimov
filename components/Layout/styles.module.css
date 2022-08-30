@@ -6,6 +6,17 @@
 
 .main {
     flex: 1 0 auto;
+    position: relative;
+    z-index: 0;
     padding: 52px 0 104px;
-    background: repeat 50% 50% / 360px 360px, no-repeat 0 0 / 100%;
+}
+
+.backgroundImage {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    width: 100%;
+    padding-top: 56.25%;
+    background: repeat 0 0 / 400px 400px, no-repeat 0 0 / 100%;
 }

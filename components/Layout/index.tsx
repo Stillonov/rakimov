@@ -16,7 +16,8 @@ export const Layout: React.FC<LayoutProps> = ({ children, backgroundImageUrl }) 
     return (
         <div className={styles.root}>
             <Header />
-            <main className={styles.main} {...(backgroundImage ? { style: { backgroundImage } } : {})}>
+            <main className={styles.main}>
+                {backgroundImage && <div className={styles.backgroundImage} style={{ backgroundImage }} />}
                 {children}
             </main>
             <Footer />

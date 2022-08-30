@@ -40,7 +40,7 @@
 
     /* Theme */
     --backgroundColor: var(--colorNeutral900);
-    --backgroundNoise: repeat var(--imageNoise) 50% 50% / 180px 180px;
+    --backgroundNoise: var(--colorNeutral900) repeat var(--imageNoise) 0 0 / 400px 400px;
 
     --fontFamilyBody: var(--fontFamilyAlsWagon);
     --fontFamilyHeading: var(--fontFamilyAlsGorizont);

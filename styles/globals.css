@@ -3,7 +3,7 @@ body {
     height: 100%;
     margin: 0;
     padding: 0;
-    /* background-color: var(--backgroundColor); */
+    background-color: var(--backgroundColor);
     color: var(--fontColorBody);
     font-family: var(--fontFamilyBody);
     font-size: var(--fontSizeBody);
@@ -13,8 +13,7 @@ body {
 }
 
 body {
-    /* background: var(--backgroundNoise); */
-    background: black;
+    background: var(--backgroundNoise);
 }
 
 #__next {
