@@ -40,6 +40,6 @@ const Design: NextPageWithLayout = () => {
     );
 };
 
-Design.getLayout = (page) => <Layout backgroundImage={backgroundImage.src}>{page}</Layout>;
+Design.getLayout = (page) => <Layout backgroundImageUrl={backgroundImage.src}>{page}</Layout>;
 
 export default Design;
