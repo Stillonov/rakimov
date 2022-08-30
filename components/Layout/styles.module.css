@@ -7,5 +7,5 @@
 .main {
     flex: 1 0 auto;
     padding: 52px 0 104px;
-    background: no-repeat 0 0 / 100%;
+    background: repeat 50% 50% / 360px 360px, no-repeat 0 0 / 100%;
 }
