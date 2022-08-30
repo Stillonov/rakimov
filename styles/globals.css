@@ -3,7 +3,6 @@ body {
     height: 100%;
     margin: 0;
     padding: 0;
-    background-color: var(--backgroundColor);
     color: var(--fontColorBody);
     font-family: var(--fontFamilyBody);
     font-size: var(--fontSizeBody);
@@ -12,7 +11,7 @@ body {
     text-transform: uppercase;
 }
 
-body {
+html {
     background: var(--backgroundNoise);
 }
 
