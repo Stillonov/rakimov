@@ -7,7 +7,7 @@
     white-space: nowrap;
 }
 
-@media (--viewportSM) {
+@media (min-width: 768px) {
     .root {
         text-align: left;
     }
@@ -21,7 +21,7 @@
     justify-content: space-between;
 }
 
-@media (--viewportSM) {
+@media (min-width: 768px) {
     .gridContainer {
         flex-direction: row;
     }
@@ -36,7 +36,7 @@
     margin-top: 0;
 }
 
-@media (--viewportSM) {
+@media (min-width: 768px) {
     .gridColumn {
         margin: 0 0 0 8px;
     }
