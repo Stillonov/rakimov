@@ -7,18 +7,18 @@ export interface WorksListItem {
     url: string;
 }
 
-export interface ProjectsListItem {
+export interface ProjectCard {
     id: number;
     name: string;
     description: string;
     works?: WorksListItem[];
 }
 
-interface ProjectsListItemProps {
-    data: ProjectsListItem;
+interface ProjectCardProps {
+    data: ProjectCard;
 }
 
-export const ProjectsListItemComp: React.FC<ProjectsListItemProps> = ({ data }) => (
+export const ProjectCard: React.FC<ProjectCardProps> = ({ data }) => (
     <div className={styles.root}>
         <Link href="/">
             <a className={styles.project}>
