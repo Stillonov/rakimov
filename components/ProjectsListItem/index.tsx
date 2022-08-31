@@ -1,3 +1,5 @@
+import Link from 'next/link';
+
 import styles from './styles.module.css';
 
 export interface WorksListItem {
@@ -18,8 +20,23 @@ interface ProjectsListItemProps {
 
 export const ProjectsListItemComp: React.FC<ProjectsListItemProps> = ({ data }) => (
     <div className={styles.root}>
-        <div>{data.name}</div>
-        <div>{data.description}</div>
-        {data.works && data.works.map(({ name }) => <div>{name}</div>)}
+        <Link href="/">
+            <a className={styles.project}>
+                <h2 className={styles.title}>{data.name}</h2>
+                <div className={styles.description}>{data.description}</div>
+            </a>
+        </Link>
+
+        {data.works && (
+            <ol className={styles.worksList}>
+                {data.works.map(({ name }, index) => (
+                    <li key={index} className={styles.worksListItem}>
+                        <Link href="/">
+                            <a>{name}</a>
+                        </Link>
+                    </li>
+                ))}
+            </ol>
+        )}
     </div>
 );

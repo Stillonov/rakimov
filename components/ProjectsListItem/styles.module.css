@@ -1,3 +1,66 @@
 .root {
-    flex: 0 1 auto;
+    flex: 0 1 calc(100% - 40px);
+    margin: 0 20px 40px;
+}
+
+@media (--viewportSM) {
+    .root {
+        flex-basis: calc(50% - 40px);
+    }
+}
+
+@media (--viewportLG) {
+    .root {
+        flex-basis: calc(25% - 60px);
+        margin: 0 30px 60px;
+    }
+}
+
+.project {
+    display: block;
+    margin: 0 0 12px;
+    padding: 6px;
+    background: var(--colorNeutral800);
+    text-decoration: none;
+}
+
+.project:hover {
+    opacity: 0.8;
+}
+
+.project:active {
+    opacity: 0.6;
+}
+
+.title {
+    margin: 0;
+    padding: 0;
+    font-size: var(--fontSizeBody);
+}
+
+.description {
+    color: var(--colorNeutral600);
+}
+
+.worksList {
+    margin: 0;
+    padding: 0;
+    color: var(--colorNeutral100);
+    list-style: none;
+    counter-reset: list-index;
+}
+
+.worksListItem {
+    display: block;
+    position: relative;
+    margin-bottom: 6px;
+    padding-left: 32px;
+    counter-increment: list-index;
+}
+
+.worksListItem:before {
+    position: absolute;
+    top: 0;
+    left: 2px;
+    content: counter(list-index);
 }

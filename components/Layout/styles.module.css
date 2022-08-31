@@ -9,7 +9,7 @@
 .main {
     flex: 1 0 auto;
     position: relative;
-    padding: 52px 0 104px;
+    padding: 52px 0;
 }
 
 .backgroundImage {
