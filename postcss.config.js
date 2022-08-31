@@ -12,6 +12,8 @@ module.exports = {
             },
         },
 
-        'postcss-custom-media': {},
+        'postcss-custom-media': {
+            importFrom: "styles/viewports.css",
+        },
     },
 };

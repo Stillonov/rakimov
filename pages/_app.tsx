@@ -1,7 +1,6 @@
 import '../styles/vendor/normalize.css';
 import '../styles/fonts.css';
 import '../styles/variables.css';
-import '../styles/viewports.css';
 import '../styles/globals.css';
 
 import type { NextPage } from 'next';
