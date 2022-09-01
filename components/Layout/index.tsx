@@ -2,7 +2,7 @@ import { Header } from 'components/Header';
 import { Footer } from 'components/Footer';
 
 import styles from './styles.module.css';
-import noiseImage from 'public/images/noise.png';
+import noiseImage from 'public/images/noise.webp';
 
 interface LayoutProps {
     children: React.ReactNode;

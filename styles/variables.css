@@ -36,7 +36,7 @@
     --fontSizeLg50: 64px;
 
     /* Images */
-    --imageNoise: url(../public/images/noise.png);
+    --imageNoise: url(../public/images/noise.webp);
 
     /* Theme */
     --backgroundColor: var(--colorNeutral900);

@@ -18,8 +18,9 @@
 
 .project {
     display: block;
+    position: relative;
     margin: 0 0 12px;
-    padding: 6px;
+    padding: 6px 8px;
     background: var(--colorNeutral800);
     text-decoration: none;
 }
@@ -30,6 +31,13 @@
 
 .project:active {
     opacity: 0.6;
+}
+
+.icon {
+    position: absolute;
+    right: 8px;
+    top: 7px;
+    color: red;
 }
 
 .title {

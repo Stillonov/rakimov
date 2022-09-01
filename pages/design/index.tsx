@@ -9,8 +9,8 @@ import { Title } from 'components/Title';
 import { PageHeader } from 'components/PageHeader';
 import { Subtitle } from 'components/Subtitle';
 import { Meta } from 'components/Meta';
-import backgroundImage from 'public/images/background-design.png';
 import { ProjectCardGroup } from 'components/ProjectCardGroup';
+import backgroundImage from 'public/images/background-design.webp';
 
 const DATA_PROJECTS = [
     { id: 0, name: 'Item 1', description: 'The cool item', works: [{ name: 'Логотип', url: '/' }] },
