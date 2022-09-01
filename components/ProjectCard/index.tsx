@@ -13,6 +13,7 @@ export interface ProjectCard {
     id: number;
     name: string;
     description: string;
+    url: string;
     works?: WorksListItem[];
 }
 
@@ -22,7 +23,7 @@ interface ProjectCardProps {
 
 export const ProjectCard: React.FC<ProjectCardProps> = ({ data }) => (
     <div className={styles.root}>
-        <Link href="/">
+        <Link href={data.url}>
             <a className={styles.project}>
                 <IconRightArrow className={styles.icon} />
                 <h2 className={styles.title}>{data.name}</h2>
@@ -32,9 +33,9 @@ export const ProjectCard: React.FC<ProjectCardProps> = ({ data }) => (
 
         {data.works && (
             <ol className={styles.worksList}>
-                {data.works.map(({ name }, index) => (
+                {data.works.map(({ name, url }, index) => (
                     <li key={index} className={styles.worksListItem}>
-                        <Link href="/">
+                        <Link href={url}>
                             <a>{name}</a>
                         </Link>
                     </li>

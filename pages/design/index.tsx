@@ -13,20 +13,27 @@ import { ProjectCardGroup } from 'components/ProjectCardGroup';
 import backgroundImage from 'public/images/background-design.webp';
 
 const DATA_PROJECTS = [
-    { id: 0, name: 'Item 1', description: 'The cool item', works: [{ name: 'Логотип', url: '/' }] },
-    { id: 1, name: 'Item 2', description: 'The bad item' },
+    {
+        id: 0,
+        name: 'Item 1',
+        description: 'The cool item',
+        url: '/design/project',
+        works: [{ name: 'Логотип', url: '/design/project/work' }],
+    },
+    { id: 1, name: 'Item 2', description: 'The bad item', url: '/design/project' },
     {
         id: 2,
         name: 'Item 3',
         description: 'The nice item',
+        url: '/design/project',
         works: [
-            { name: 'Логотип', url: '/' },
-            { name: 'Мобильное приложение', url: '/' },
-            { name: 'Лендинг проекта', url: '/' },
+            { name: 'Логотип', url: '/design/project/work' },
+            { name: 'Мобильное приложение', url: '/design/project/work' },
+            { name: 'Лендинг проекта', url: '/design/project/work' },
         ],
     },
-    { id: 3, name: 'Item 4', description: 'The bad item' },
-    { id: 4, name: 'Item 5', description: 'The cool item' },
+    { id: 3, name: 'Item 4', description: 'The bad item', url: '/design/project' },
+    { id: 4, name: 'Item 5', description: 'The cool item', url: '/design/project' },
 ];
 
 const Design: NextPageWithLayout = () => {
