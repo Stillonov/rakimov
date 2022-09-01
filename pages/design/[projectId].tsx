@@ -20,6 +20,7 @@ const Project: NextPageWithLayout = () => {
 
             <Container>
                 <PageHeader
+                    compact
                     leftSlot={
                         <>
                             <Breadcrumb>

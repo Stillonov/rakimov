@@ -3,11 +3,12 @@
     flex-direction: row;
     flex-wrap: nowrap;
     justify-content: space-between;
-    min-height: 386px;
+    min-height: 326px;
+    margin-bottom: 60px;
 }
 
 .compact {
-    min-height: 117px;
+    min-height: 57px;
 }
 
 .leftSlot,
